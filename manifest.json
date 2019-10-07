@@ -150,11 +150,6 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
-			"addon":"textfieldconfiguratortemplateaddon",
-			"storefront":"yacceleratorstorefront",
-			"template":"yacceleratorstorefront"
-		},
-		{
 			"addon":"assistedservicestorefront",
 			"storefront":"yacceleratorstorefront",
 			"template":"yacceleratorstorefront"
