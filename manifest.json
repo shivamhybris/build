@@ -155,11 +155,6 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
-			"addon":"assistedservicepromotionaddon",
-			"storefront":"yacceleratorstorefront",
-			"template":"yacceleratorstorefront"
-		},
-		{
 			"addon":"customerticketingaddon",
 			"storefront":"yacceleratorstorefront",
 			"template":"yacceleratorstorefront"
@@ -195,10 +190,10 @@
 			"template":"ycommercewebservices"
 		},
 		{
-            "addon": "secureportaladdon",
-            "storefront": "yb2bacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        }
+            		"addon": "secureportaladdon",
+            		"storefront": "yb2bacceleratorstorefront",
+           		"template": "yacceleratorstorefront"
+        	}
 	],
 	"properties":[
 		{
