@@ -186,7 +186,7 @@
 		},
 		{
             		"addon": "secureportaladdon",
-            		"storefront": "yb2bacceleratorstorefront",
+            		"storefront": "yacceleratorstorefront",
             		"template": "yacceleratorstorefront"
         	}
 	],
