@@ -5,7 +5,7 @@
 		"orderselfserviceaddon",
 		"ordermanagementwebservices",
 		"b2bordermanagementwebservices",
-
+		"secureportaladdon",
 		"warehousing",
 		"warehousingbackoffice",
 		"warehousingwebservices",
@@ -186,7 +186,7 @@
 		},
 		{
             		"addon": "secureportaladdon",
-            		"storefront": "yacceleratorstorefront",
+            		"storefront": "yb2bacceleratorstorefront",
             		"template": "yacceleratorstorefront"
         	}
 	],
