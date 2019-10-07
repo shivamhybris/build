@@ -180,11 +180,6 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
-			"addon":"personalizationsearchsamplesaddon",
-			"storefront":"yacceleratorstorefront",
-			"template":"yacceleratorstorefront"
-		},
-		{
 			"addon":"acceleratorwebservicesaddon",
 			"storefront":"ycommercewebservices",
 			"template":"ycommercewebservices"
@@ -192,7 +187,7 @@
 		{
             		"addon": "secureportaladdon",
             		"storefront": "yb2bacceleratorstorefront",
-           		"template": "yacceleratorstorefront"
+            		"template": "yacceleratorstorefront"
         	}
 	],
 	"properties":[
