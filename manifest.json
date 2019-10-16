@@ -5,7 +5,7 @@
 		"orderselfserviceaddon",
 		"ordermanagementwebservices",
 		"b2bordermanagementwebservices",
-
+		"secureportaladdon",
 		"warehousing",
 		"warehousingbackoffice",
 		"warehousingwebservices",
@@ -103,7 +103,7 @@
         },
         {
             "name": "accstorefront",
-             "properties": [
+            "properties": [
                 {
                     "key": "spring.session.enabled",
                     "value": "true"
@@ -125,7 +125,7 @@
                     "value": ""
                 }
             ],
-            "webapps": [
+            "webapps": 
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
@@ -176,17 +176,7 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
-			"addon":"textfieldconfiguratortemplateaddon",
-			"storefront":"yacceleratorstorefront",
-			"template":"yacceleratorstorefront"
-		},
-		{
 			"addon":"assistedservicestorefront",
-			"storefront":"yacceleratorstorefront",
-			"template":"yacceleratorstorefront"
-		},
-		{
-			"addon":"assistedservicepromotionaddon",
 			"storefront":"yacceleratorstorefront",
 			"template":"yacceleratorstorefront"
 		},
@@ -216,11 +206,6 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
-			"addon":"personalizationsearchsamplesaddon",
-			"storefront":"yacceleratorstorefront",
-			"template":"yacceleratorstorefront"
-		},
-		{
 			"addon":"acceleratorwebservicesaddon",
 			"storefront":"ycommercewebservices",
 			"template":"ycommercewebservices"
@@ -229,7 +214,7 @@
             		"addon": "secureportaladdon",
             		"storefront": "yb2bacceleratorstorefront",
             		"template": "yacceleratorstorefront"
-        }
+        	}
 	],
 	"properties":[
 		{
