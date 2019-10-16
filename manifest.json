@@ -1,11 +1,11 @@
 {
-    "commerceSuiteVersion": "1905.0",
+    "commerceSuiteVersion": "1905.09",
     "extensions": [
 	    "ordermanagementaddon",
 		"orderselfserviceaddon",
 		"ordermanagementwebservices",
 		"b2bordermanagementwebservices",
-		"secureportaladdon",
+
 		"warehousing",
 		"warehousingbackoffice",
 		"warehousingwebservices",
@@ -103,6 +103,28 @@
         },
         {
             "name": "accstorefront",
+             "properties": [
+                {
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.save",
+                    "value": "async"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.path",
+                    "value": "/"
+                },
+                {
+                    "key":"storefrontContextRoot",
+                    "value": ""
+                }
+            ],
             "webapps": [
                 {
                     "name": "mediaweb",
@@ -115,6 +137,10 @@
                 {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"
+                },
+                {
+                    "name": "yb2bacceleratorstorefront",
+                    "contextPath": "/yb2bacceleratorstorefront"
                 }
             ]
         },
@@ -150,7 +176,17 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
+			"addon":"textfieldconfiguratortemplateaddon",
+			"storefront":"yacceleratorstorefront",
+			"template":"yacceleratorstorefront"
+		},
+		{
 			"addon":"assistedservicestorefront",
+			"storefront":"yacceleratorstorefront",
+			"template":"yacceleratorstorefront"
+		},
+		{
+			"addon":"assistedservicepromotionaddon",
 			"storefront":"yacceleratorstorefront",
 			"template":"yacceleratorstorefront"
 		},
@@ -180,6 +216,11 @@
 			"template":"yacceleratorstorefront"
 		},
 		{
+			"addon":"personalizationsearchsamplesaddon",
+			"storefront":"yacceleratorstorefront",
+			"template":"yacceleratorstorefront"
+		},
+		{
 			"addon":"acceleratorwebservicesaddon",
 			"storefront":"ycommercewebservices",
 			"template":"ycommercewebservices"
@@ -188,7 +229,7 @@
             		"addon": "secureportaladdon",
             		"storefront": "yb2bacceleratorstorefront",
             		"template": "yacceleratorstorefront"
-        	}
+        }
 	],
 	"properties":[
 		{
