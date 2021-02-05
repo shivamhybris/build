@@ -1,0 +1,10 @@
+{
+    "applications": [
+        {
+            "name": "myspastore",
+            "path": "myspastore",
+            "enableSSR": true
+        }
+    ],
+        "nodeVersion": "12"
+}
